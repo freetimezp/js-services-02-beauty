@@ -279,6 +279,61 @@ hr {
     opacity: 1;
 }
 
+#testimonial {
+    width: 100%;
+    padding: 70px 0;
+}
+
+.testimonial-row {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.testimonial-col {
+    flex-basis: 28%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0.5px 30px #009688;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;
+}
+
+.testimonial-col p {
+    font-size: 14px;
+}
+
+.testimonial-col:hover {
+    transform: translateY(-5px);
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.user img {
+    width: 40px;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+
+.user-info .fa-brands {
+    margin-left: 10px;
+    color: #27c0ff;
+    font-size: 20px;
+}
+
+.user-info small {
+    color: #009688;
+}
+
+
 
 
 
@@ -314,6 +369,10 @@ hr {
     }
     hr {
         margin: 5px auto;
+    }
+
+    .testimonial-col {
+        flex-basis: 100%;
     }
     
 }
